@@ -11,7 +11,7 @@ import com.spring.model.Ticket;
 import com.spring.utils.QueryBuilder;
 
 @Repository
-public class RepositoryImpl implements ITicketRepository{
+public class TicketRepositoryImpl implements ITicketRepository{
 	@Autowired
 	JdbcTemplate jdbcTemplate;
 
